@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-backend-production-set-up",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "lovepreet singh",
+  "license": "ISC",
+  "description": ""
+}
