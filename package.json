@@ -1,7 +1,7 @@
 {
   "name": "nodejs-backend-production-set-up",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "dist":"npx tsc",
     "dev": "nodemon src/index.ts",
