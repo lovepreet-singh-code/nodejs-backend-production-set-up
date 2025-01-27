@@ -1,11 +1,12 @@
-/* eslint-disable @typescript-eslint/no-floating-promises */
+
 import app from './app'
 import config from './config/config'
-import logger from './util/logger'
 import databaseService from './service/databaseService'
+import logger from './util/logger'
 
 const server = app.listen(config.PORT)
 
+// eslint-disable-next-line @typescript-eslint/no-floating-promises
 ;(async () => {
     try {
         // Database Connection
